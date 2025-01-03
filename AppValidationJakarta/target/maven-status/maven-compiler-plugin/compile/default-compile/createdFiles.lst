@@ -1,0 +1,7 @@
+co\com\application\appvalidation\AppvalidationApplication.class
+co\com\application\appvalidation\service\ValidationServiceImpl.class
+co\com\application\appvalidation\controller\MainControl.class
+co\com\application\appvalidation\RestConfiguration.class
+co\com\application\appvalidation\ServletInitializer.class
+co\com\application\appvalidation\service\ValidationService.class
+co\com\application\appvalidation\dto\Request.class
