@@ -1,7 +1,13 @@
 # javaappmigratedtojakarta
 Created by: Camilo P. R.
-AppValidation is a java maven War, deployed as a rest API using java 1.7 (one dot seven) or java 7 an old version of java, its also optimized to be deployed on glassfish servers.
-AppValidationJakarta is a Java Springboot maven war, upgraded to Java 17(Seventeen) and from javax to jakarta, it provides the same functions than AppValidation and also was modified to be able tu run into glassfish servers. an important thing here, the file src/main/webapp/WEB-INF
-/beans.xml is necessary even being empty, otherwise the application wont deploy on the server.
 
-To generate the war file use the next maven command: clean install compile package -e -X -U -Dskiptests
+AppValidation is a Java Maven WAR application, deployed as a REST API using Java 1.7 (Java 7), an older version of Java. It is optimized to run on GlassFish servers.
+
+AppValidationJakarta is an upgraded version of AppValidation. It is a Java Spring Boot Maven WAR, migrated to Java 17 and transitioned from javax to jakarta. It provides the same functionality as AppValidation but has been modified to ensure compatibility with GlassFish servers.
+
+Important Note: The file src/main/webapp/WEB-INF/beans.xml is required, even if it is empty. Without it, the application will not deploy on the server.
+
+To generate the WAR file, use the following Maven command:
+
+mvn clean install compile package -e -X -U -DskipTests
+in visual studio code select custom maven commands and insert: clean install compile package -e -X -U -DskipTests
