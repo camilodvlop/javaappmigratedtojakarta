@@ -1,0 +1,4 @@
+com\application\appvalidation\dto\Request.class
+com\application\appvalidation\util\Configuracion.class
+com\application\appvalidation\ApplicationConfig.class
+com\application\appvalidation\AppvalidationResource.class
