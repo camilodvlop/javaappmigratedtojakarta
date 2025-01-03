@@ -68,7 +68,7 @@ public class AppvalidationResource {
      * @return
      */
     @POST
-    @Path("/pathtovalidate")
+    @Path("/postinfo")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response putJson(Request reqobj) {
